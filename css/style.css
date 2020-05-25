@@ -1,0 +1,137 @@
+.navbar {
+	background-color: #E65634;
+}
+.navbar-brand, .nav-link {
+	color: white;
+}
+.navbar-brand:hover,
+.nav-link:hover {
+	color: #cecece;
+}
+
+
+button:focus {
+	outline: none;
+}
+
+.fas {
+	color: white;
+}
+.header {
+  background: url('../img/horizon.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+
+}
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+  	top: 0;
+ 	background: rgba(0, 0, 0, 0.7);
+
+}
+
+.description {
+	color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%, -55%);
+
+}
+.description h1 {
+	color: #E65634;
+}
+.description p {
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.description .btn {
+	background-color: #E65634;
+	border: none;
+}
+
+/*reset stylu buttonov*/
+
+.btn:hover,
+.btn:active {
+	background:#fff !important;
+    color:#000 !important;
+}
+.btn:focus {
+	box-shadow: none !important;
+}
+
+
+.hlavny {
+	background-color: white;
+}
+.row {
+	padding: 2rem 0;
+}
+.row img {
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+.row h2 {
+	margin-bottom: 1rem;
+}
+
+.formular-kont {
+	background-color: #E65634;
+}
+
+.formular {
+	padding: 2rem;
+}
+
+.formular > .btn {
+	background-color: black;
+	color: white;
+	border: none;
+}
+
+.page-footer {
+	background-color: black;
+	color: white;
+	padding: 3rem 0 2rem;
+}
+
+@media screen and (max-width: 575.98px) {
+
+	.description {
+		left: 0;
+		padding: 0 15px;
+		position: absolute;
+		top: 20%;
+		transform: none;
+		text-align: center;
+	}
+
+	.description h1 {
+		font-size: 2rem;
+	}
+
+	.description p {
+		font-size: 1.1rem;
+	}
+
+@media  screen and (max-width: 770px) {
+	.row {
+	text-align: center;
+	}
+	.formular > input {
+		text-align: center;
+	}
+}
+
+
+
+
+
+
